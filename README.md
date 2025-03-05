@@ -3,6 +3,8 @@
 ## Overview
 This project automates the retrieval, analysis, and visualization of health and fitness data from MyFitnessPal. The script fetches user data such as weight, calorie intake, macronutrients, and exercise activity, then generates summary statistics and visual reports.
 
+## [Report Preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/ohorban/mfp-health-reports/main/report.html)
+
 ## Features
 - Fetches data from MyFitnessPal via its API
 - Logs data collection process
