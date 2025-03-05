@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MyFitnessPal Summary Report</title>
+    <style>
+      body {
+          background: #F4F4F4;
+          color: #2B2B2B;
+          text-align: center;
+          font-family: 'Lato', sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+      h1, h2, h3 {
+          margin: 20px;
+      }
+      .section {
+          background: #FFFFFF;
+          margin: 20px auto;
+          max-width: 850px;
+          padding: 20px;
+          border-radius: 6px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      img {
+          max-width: 95%;
+          height: auto;
+          margin: 10px 0;
+          border: 1px solid #D3D3D3;
+      }
+      .highlight-loss {
+          color: #5FBF77;
+          font-weight: bold;
+      }
+      .highlight-gain {
+          color: #d85656;
+          font-weight: bold;
+      }
+      .highlight-neutral {
+          color: #1e003e;
+          font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>MyFitnessPal Summary Report</h1>
+    <p><em>Last updated: 2025-03-05 06:00:43</em></p>
+    <p>44 Days of Weight Data</p>
+  </div>
+
+  <div class="section">
+    <h2>1. Weight Trend</h2>
+    
+      <img src="resources/weight_graph.png" alt="Weight (3-day Avg)" />
+    
+  </div>
+
+  <div class="section">
+    <h2>2. Weight Changes</h2>
+    <p>
+      Since the start (first 3-day avg vs. last 3-day avg), you
+      
+        <span class="highlight-loss">lost 9.00 lbs</span>.
+      
+    </p>
+    <p>
+      In the last 7 days, you
+      
+        <span class="highlight-loss">lost 3.30 lbs</span>.
+      
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>3. Estimated Daily Maintenance</h2>
+    <p>Your estimated daily maintenance: <strong>2594.17</strong> calories.</p>
+  </div>
+
+  <div class="section">
+    <h2>4. Calories &amp; Macros</h2>
+    
+      <p>
+        In the <strong>last 7 days</strong>, your average daily calories = 
+        <strong>1698.57</strong>
+      </p>
+      <p>
+        Your <strong>overall</strong> average daily calories = 
+        <strong>1754.42</strong>
+      </p>
+    
+    
+      <p>Your average daily calorie deficit (last 7 days) = <strong>895.60</strong></p>
+    
+    
+      <img src="resources/calories_macros_calories.png" alt="Daily Calories" />
+    
+    
+      <img src="resources/calories_macros_macros.png" alt="Daily Macros" />
+    
+  </div>
+
+  <div class="section">
+    <h2>5. Exercise</h2>
+    
+      <h3>Daily Exercise Minutes</h3>
+      <img src="resources/exercise_summary_minutes.png" alt="Daily Exercise Minutes" />
+    
+    
+      <h3>Daily Exercise Calories</h3>
+      <img src="resources/exercise_summary_calories.png" alt="Daily Exercise Calories" />
+    
+  </div>
+
+</body>
+</html>

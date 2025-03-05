@@ -1,0 +1,8 @@
+2025-03-05 06:00:07,832 - INFO - Fetching data from MyFitnessPal API...
+2025-03-05 06:00:43,000 - INFO - Weight data size: (38, 2)
+2025-03-05 06:00:43,001 - INFO - Nutrition data size: (44, 5)
+2025-03-05 06:00:43,001 - INFO - Exercise data size: (44, 3)
+2025-03-05 06:00:43,023 - INFO - Data fetched successfully.
+2025-03-05 06:00:43,851 - INFO - Report generated at /Users/andromeda/Desktop/mfp-health-reports/report.html.
+2025-03-05 06:00:43,851 - INFO - 
+
